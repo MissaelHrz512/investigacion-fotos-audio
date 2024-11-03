@@ -43,7 +43,6 @@ function App() {
       })}
 
       <button onClick={generatePDF}>Descargar PDF</button>
-      <Voice/>
       <RecogReact/>
     </>
   );
