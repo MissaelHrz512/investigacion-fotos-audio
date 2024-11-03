@@ -4,6 +4,7 @@ import { jsPDF } from "jspdf";
 import { questions } from "./Data";
 import { MyQuestion } from "./MyQuestion";
 import Voice from "./Speach/Voice";
+import RecogReact from "./Speach/RecogReact";
 
 function App() {
   const [images, setImages] = useState([]);
@@ -43,6 +44,7 @@ function App() {
 
       <button onClick={generatePDF}>Descargar PDF</button>
       <Voice/>
+      <RecogReact/>
     </>
   );
 }
